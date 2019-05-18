@@ -12,7 +12,7 @@ class EmailParser
   
   def parse
     # parse emails
-    @list.split(",")
+    @list.split(" ")
     #remove duplicates
   end
   
