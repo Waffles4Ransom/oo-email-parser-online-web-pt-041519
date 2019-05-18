@@ -14,7 +14,7 @@ class EmailParser
   
   def parse
     # parse emails
-    @@emails << @list.split(" ")
+     @list.split(" ")
     #remove duplicates
     @@emails.uniq
   end
