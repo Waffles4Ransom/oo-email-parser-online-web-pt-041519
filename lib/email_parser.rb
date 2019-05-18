@@ -16,7 +16,7 @@ class EmailParser
     # parse emails
      @list.split(/[,\s]+/)
     #remove duplicates
-    #@@emails.uniq
+    @list.uniq 
   end
   
 end
