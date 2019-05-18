@@ -14,7 +14,7 @@ class EmailParser
   
   def parse
     # parse emails
-    @@emails << @list.delete!(,)split(" ")
+    @@emails << @list.delete!",".split(" ")
     @@emails
     #remove duplicates
   end
