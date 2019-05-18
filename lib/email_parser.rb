@@ -6,7 +6,7 @@
 class EmailParser
   attr_accessor :list
   
-  @@emails = [ ]
+  #@@emails = [ ]
   
   def initialize(emails)
     @list = emails
@@ -14,9 +14,9 @@ class EmailParser
   
   def parse
     # parse emails
-     @list.split(" ")
+     @list.split(/\s*,\s*/)
     #remove duplicates
-    @@emails.uniq
+    #@@emails.uniq
   end
   
 end
