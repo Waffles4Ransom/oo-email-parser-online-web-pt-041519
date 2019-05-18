@@ -16,7 +16,7 @@ class EmailParser
     # parse emails
     @@emails << @list.split(" ")
     #remove duplicates
-    @@emails.uniq?
+    @@emails.uniq
   end
   
 end
