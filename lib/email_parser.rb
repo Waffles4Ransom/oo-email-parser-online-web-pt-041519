@@ -14,7 +14,7 @@ class EmailParser
   
   def parse
     # parse emails
-     @list.split(/\s*,\s*/)
+     @list.split(/\s|,/)
     #remove duplicates
     #@@emails.uniq
   end
